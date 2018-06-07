@@ -1,0 +1,20 @@
+﻿<Window x:Class="u5Quadratic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u5Quadratic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="Question" Width="Auto" Height="Auto" Margin="152,97,177,156" Text=""/>
+        <TextBox x:Name="AnswerBox" Width="188" Height="56" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="152,0,177,100" Text="Place your answer here"/>
+        <Button  x:Name="btn"
+            Content="Check Answer"
+            FontSize="24"
+            Background="Navy"
+            Foreground="White"
+            Click="btn_Click"
+            Height="40" Canvas.Left="0" Canvas.Top="480" Margin="152,219,177,60" />
+    </Grid>
+</Window>
